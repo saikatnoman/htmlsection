@@ -1,0 +1,130 @@
+/*aituku dewa jay, but vai aita follow kore na, onekei kore. vai body te margin padding 0 recommend kortese.
+*{
+	margin:0;
+	padding: 0;
+}*/
+body{
+	margin:0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+	padding: 10px 0px;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}   
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: 62px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+    padding: 0px 20px;
+    display: inline-block;
+    transition: .3s;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	/*background-position: top left;
+	background-position: bottom left;*/
+}
+.b_content{
+	width: 50%;
+	/*border: 1px solid red;*/
+	margin-top: 200px;
+	margin-bottom: 90px;
+	/*background-color: rgba(11,11,11,.5);*/
+}
+.b_content h1{
+	font-family:sans-serif;  
+	font-weight:400;
+	font-size:35px; 
+	color:white;
+	text-transform: capitalize;
+	margin:0;
+	/*font-family:  
+	font-weight:;
+	font-size: 
+	color:;
+	ai serial ta alws maintain kora lagbe.*/
+}
+.b_content h2{
+	font-family:sans-serif;  
+	/*font-weight:700;
+	aita or normal weight*/
+	font-size:48px; 
+	color:#0078BD;
+	text-transform: capitalize;
+	margin:0;
+}
+.b_content p{
+	font-family:sans-serif;  
+	/*font-weight:400;
+	or normal weight 400
+	font-size:16px; */
+	color:white;
+	margin:0;
+	line-height:25px ;
+	/*letter-spacing: ;
+	word-spacing: 
+	word spacing normally 0px thake*/
+}
+.b_content button{
+	width: 220px;
+	height: 50px;
+	margin-top: 20px;
+	font-family:sans-serif;  
+	font-size:22px; 
+	color:#5A5A5A;
+	text-transform: uppercase;
+	background-color:white;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .3s;
+} 
+.b_content button:hover{
+	color:#0078BD;
+}
+.b_content button:focus{
+	outline: 0;
+}
+/*banner end*/
